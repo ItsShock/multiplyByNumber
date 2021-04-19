@@ -1,29 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="3" failures="1" time="2.452">
-  <testsuite name="Funkcja multiplyBy" errors="0" failures="1" skipped="0" timestamp="2021-04-18T17:27:15" time="1.359" tests="3">
+<testsuites name="jest tests" tests="3" failures="0" time="2.741">
+  <testsuite name="Funkcja multiplyBy" errors="0" failures="0" skipped="0" timestamp="2021-04-19T07:52:16" time="1.609" tests="3">
     <testcase classname="Funkcja multiplyBy powinna zwrócić tablicę" name="Funkcja multiplyBy powinna zwrócić tablicę" time="0.001">
     </testcase>
-    <testcase classname="Funkcja multiplyBy nie powinna modyfikować przekazanego parametru" name="Funkcja multiplyBy nie powinna modyfikować przekazanego parametru" time="0.005">
-      <failure>Error: expect(received).toEqual(expected) // deep equality
-
-- Expected  - 3
-+ Received  + 3
-
-  Array [
--   1,
--   2,
--   3,
-+   NaN,
-+   NaN,
-+   NaN,
-  ]
-    at Object.&lt;anonymous&gt; (C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-03-02-p\tests\test.js:15:19)
-    at Object.asyncJestTest (C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-03-02-p\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:100:37)
-    at C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-03-02-p\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-03-02-p\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-03-02-p\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    <testcase classname="Funkcja multiplyBy nie powinna modyfikować przekazanego parametru" name="Funkcja multiplyBy nie powinna modyfikować przekazanego parametru" time="0.001">
     </testcase>
     <testcase classname="Funkcja multiplyBy powinna zwracać tablicę posiadającą elementy przemnożone przez drugi parametr" name="Funkcja multiplyBy powinna zwracać tablicę posiadającą elementy przemnożone przez drugi parametr" time="0.001">
     </testcase>

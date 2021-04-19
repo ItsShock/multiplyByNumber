@@ -1,11 +1,5 @@
-function multiplyBy(arr, number) 
-{
-  for (i = 0; i < arr.length; i++)
-  {
-    arr[i] *= number; 
-  }
 
-  return arr;
-};
+const multiplyBy = (arr, number) => arr.map( (n) => n * number );
+
 
 module.exports = multiplyBy;
